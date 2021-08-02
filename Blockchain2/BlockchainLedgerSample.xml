@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BlockLedger>
+<blockRecord>
+    <blockID>cfdc835d-127d-4932-b8ce-1972c62d63cd</blockID>
+    <creatingProcess>Process0</creatingProcess>
+    <data>John Smith 1996.03.07 123-45-6789 Chickenpox BedRest aspirin</data>
+    <FDOB>1996.03.07</FDOB>
+    <fname>John</fname>
+    <GDiag>Chickenpox</GDiag>
+    <GRx>aspirin</GRx>
+    <GTreat>BedRest</GTreat>
+    <lname>Smith</lname>
+    <previousHash>0</previousHash>
+    <randomKey>ZDHSUBUT</randomKey>
+    <SHA256String>549fc7664cdee289dc87a3a6342213e61ea22f37f364253723ba054197fcc1de</SHA256String>
+    <SSNum>123-45-6789</SSNum>
+    <signedSHA256>ZDHSUBUT</signedSHA256>
+    <verificationProcessID>Process: 0</verificationProcessID>
+</blockRecord>
+
+<blockRecord>
+    <blockID>fea57c9a-4015-481c-84fc-33af2b61b8cb</blockID>
+    <creatingProcess>Process0</creatingProcess>
+    <data>Joe  Blow  1996.03.07 123-45-6888 Smallpox BedRest Whiskey</data>
+    <FDOB>1996.03.07</FDOB>
+    <fname>Joe</fname>
+    <GDiag>Smallpox</GDiag>
+    <GRx>Whiskey</GRx>
+    <GTreat>BedRest</GTreat>
+    <lname>Blow</lname>
+    <previousHash>549fc7664cdee289dc87a3a6342213e61ea22f37f364253723ba054197fcc1de</previousHash>
+    <randomKey>MI2UJ719</randomKey>
+    <SHA256String>fd96f85fb036fc551d29e0005be44b9c852a59945bbbe44f34aaf73f9df593e1</SHA256String>
+    <SSNum>123-45-6888</SSNum>
+    <signedSHA256>MI2UJ719</signedSHA256>
+    <verificationProcessID>Process: 0</verificationProcessID>
+</blockRecord>
+
+<blockRecord>
+    <blockID>8901c625-fdf4-42a6-9197-0bd1a4da23a5</blockID>
+    <creatingProcess>Process0</creatingProcess>
+    <data>Julie Wilson 1996.03.07 123-45-6999 Insomnia Exercise HotPeppers</data>
+    <FDOB>1996.03.07</FDOB>
+    <fname>Julie</fname>
+    <GDiag>Insomnia</GDiag>
+    <GRx>HotPeppers</GRx>
+    <GTreat>Exercise</GTreat>
+    <lname>Wilson</lname>
+    <previousHash>fd96f85fb036fc551d29e0005be44b9c852a59945bbbe44f34aaf73f9df593e1</previousHash>
+    <randomKey>BJ0ZA3Z0</randomKey>
+    <SHA256String>1c09f4056805f7e9ba5bb6314c2fbb41345a5aaf67a6985082b37731fe20901f</SHA256String>
+    <SSNum>123-45-6999</SSNum>
+    <signedSHA256>BJ0ZA3Z0</signedSHA256>
+    <verificationProcessID>Process: 0</verificationProcessID>
+</blockRecord>
+
+<blockRecord>
+    <blockID>52cce8cf-5300-46c0-a438-a421ccbf5c48</blockID>
+    <creatingProcess>Process0</creatingProcess>
+    <data>Wayne Blaine 1942.07.07 123-45-6777 Measles WaitToGetBetter CodLiverOil </data>
+    <FDOB>1942.07.07</FDOB>
+    <fname>Wayne</fname>
+    <GDiag>Measles</GDiag>
+    <GRx>CodLiverOil</GRx>
+    <GTreat>WaitToGetBetter</GTreat>
+    <lname>Blaine</lname>
+    <previousHash>1c09f4056805f7e9ba5bb6314c2fbb41345a5aaf67a6985082b37731fe20901f</previousHash>
+    <randomKey>DLSVVT7G</randomKey>
+    <SHA256String>885c25e1c210c4eaea2cd4fb6bdfab5322186356acd52ab330de84a0b4fa874f</SHA256String>
+    <SSNum>123-45-6777</SSNum>
+    <signedSHA256>DLSVVT7G</signedSHA256>
+    <verificationProcessID>Process: 0</verificationProcessID>
+</blockRecord>
+</BlockLedger>

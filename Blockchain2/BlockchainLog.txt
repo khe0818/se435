@@ -1,0 +1,487 @@
+Process number: 0 Ports: 4710 4820 4930
+
+Using input file: BlockInput0.txt
+Concatenated: John Smith 1996.03.07 123-45-6789 Chickenpox BedRest aspirin529PM3AD
+Hash is: CD6215A586179AFFBF660AEED6401387DF734CC67166A86D219C696DE8BE9483
+First 16 bits CD62: 52578
+
+Concatenated: John Smith 1996.03.07 123-45-6789 Chickenpox BedRest aspirinSL1WLRZZ
+Hash is: 27BCBA4F71DB063D5A7AC34EC9248ADA8D2A3177BFA1BD82F00A3B8832B1C8A5
+First 16 bits 27BC: 10172
+
+Puzzle solved!
+The seed was: SL1WLRZZ
+RandomKey >:SL1WLRZZ
+signed >:8479bde79ddf2d17aa5fb6688b8891806f5066331a9b5bf17f73f3562cd4b56f
+previousehash:0
+Concatenated: Joe  Blow  1996.03.07 123-45-6888 Smallpox BedRest WhiskeyG4XQR11W
+Hash is: D87BE0B423153657BD0EC49C6091859B6774BFDBEDE84044DC0DBD2FCB21D707
+First 16 bits D87B: 55419
+
+Concatenated: Joe  Blow  1996.03.07 123-45-6888 Smallpox BedRest WhiskeyXLM7DUTA
+Hash is: 46E552E2A26B3E90D2551CF3762AF5681BB6AD06443960AE29A6A54210DAC88D
+First 16 bits 46E5: 18149
+
+Puzzle solved!
+The seed was: XLM7DUTA
+RandomKey >:XLM7DUTA
+signed >:88efc9cabfc2825e464693842ea89c806a11535b2eda0550365f33a60e6a0288
+previousehash:8479bde79ddf2d17aa5fb6688b8891806f5066331a9b5bf17f73f3562cd4b56f
+Concatenated: Julie Wilson 1996.03.07 123-45-6999 Insomnia Exercise HotPeppersLEKHLAWX
+Hash is: B35C33C005542EE03E1C84759F986D03C591AA864A4A47F9FE15129D4F3AA94B
+First 16 bits B35C: 45916
+
+Concatenated: Julie Wilson 1996.03.07 123-45-6999 Insomnia Exercise HotPeppers8RHA8ZL8
+Hash is: 0181E8F06AE0F47017DAC38DD999AD0348E1711196A33BC1A8D1B00C427CB2B7
+First 16 bits 0181: 385
+
+Puzzle solved!
+The seed was: 8RHA8ZL8
+RandomKey >:8RHA8ZL8
+signed >:3ab722da7533a94571c0acbf69047b9f2d5ccaa5c3f2465382660ae9e7f0c73b
+previousehash:88efc9cabfc2825e464693842ea89c806a11535b2eda0550365f33a60e6a0288
+Concatenated: Wayne Blaine 1942.07.07 123-45-6777 Measles WaitToGetBetter CodLiverOil G0W2RMA0
+Hash is: 929D50B095C8741B0AEEC262479ACFA18F987430EBA31A9B8794ADAE7A76AE69
+First 16 bits 929D: 37533
+
+Concatenated: Wayne Blaine 1942.07.07 123-45-6777 Measles WaitToGetBetter CodLiverOil 2L53I3FM
+Hash is: AFA6372B0C7FFEC9CA6BDACD2C1A879648D783E3838412A779D54C1BD2FC626F
+First 16 bits AFA6: 44966
+
+Concatenated: Wayne Blaine 1942.07.07 123-45-6777 Measles WaitToGetBetter CodLiverOil 2DERBUP7
+Hash is: F6CBB913088F313ABC357A07F4F32BCB609FBC1A74A05A8A26C25E87EB78215E
+First 16 bits F6CB: 63179
+
+Concatenated: Wayne Blaine 1942.07.07 123-45-6777 Measles WaitToGetBetter CodLiverOil 58M4B5BL
+Hash is: 89E394832485D7B7C4209B19259C7C123637BE942F66736D543393EC3071C8DE
+First 16 bits 89E3: 35299
+
+Concatenated: Wayne Blaine 1942.07.07 123-45-6777 Measles WaitToGetBetter CodLiverOil DERNULXP
+Hash is: 19D6764758C90CDAEC467A22000A9E3C81797CA0A6A6639BF4FC974499B9DD23
+First 16 bits 19D6: 6614
+
+Puzzle solved!
+The seed was: DERNULXP
+RandomKey >:DERNULXP
+signed >:691125e507c72d366f220a363903430934cc56a64411407763dd3e02abf9d2cc
+previousehash:3ab722da7533a94571c0acbf69047b9f2d5ccaa5c3f2465382660ae9e7f0c73b
+4 how many recors has been read.
+ full names:
+  John Smith
+  Joe Blow
+  Julie Wilson
+  Wayne Blaine
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BlockLedger>
+<blockRecord>
+    <blockID>966c9b57-63fd-43b6-87b1-76c618a421b9</blockID>
+    <creatingProcess>Process0</creatingProcess>
+    <data>John Smith 1996.03.07 123-45-6789 Chickenpox BedRest aspirin</data>
+    <FDOB>1996.03.07</FDOB>
+    <fname>John</fname>
+    <GDiag>Chickenpox</GDiag>
+    <GRx>aspirin</GRx>
+    <GTreat>BedRest</GTreat>
+    <lname>Smith</lname>
+    <previousHash>0</previousHash>
+    <randomKey>SL1WLRZZ</randomKey>
+    <SHA256String>8479bde79ddf2d17aa5fb6688b8891806f5066331a9b5bf17f73f3562cd4b56f</SHA256String>
+    <SSNum>123-45-6789</SSNum>
+    <signedSHA256>SL1WLRZZ</signedSHA256>
+    <verificationProcessID>Process: 0</verificationProcessID>
+</blockRecord>
+
+<blockRecord>
+    <blockID>a6795c70-4a0a-40f2-ae75-a926e49e17cd</blockID>
+    <creatingProcess>Process0</creatingProcess>
+    <data>Joe  Blow  1996.03.07 123-45-6888 Smallpox BedRest Whiskey</data>
+    <FDOB>1996.03.07</FDOB>
+    <fname>Joe</fname>
+    <GDiag>Smallpox</GDiag>
+    <GRx>Whiskey</GRx>
+    <GTreat>BedRest</GTreat>
+    <lname>Blow</lname>
+    <previousHash>8479bde79ddf2d17aa5fb6688b8891806f5066331a9b5bf17f73f3562cd4b56f</previousHash>
+    <randomKey>XLM7DUTA</randomKey>
+    <SHA256String>88efc9cabfc2825e464693842ea89c806a11535b2eda0550365f33a60e6a0288</SHA256String>
+    <SSNum>123-45-6888</SSNum>
+    <signedSHA256>XLM7DUTA</signedSHA256>
+    <verificationProcessID>Process: 0</verificationProcessID>
+</blockRecord>
+
+<blockRecord>
+    <blockID>be6b8e4a-d4cf-473b-b8d9-9c2083dc8bb4</blockID>
+    <creatingProcess>Process0</creatingProcess>
+    <data>Julie Wilson 1996.03.07 123-45-6999 Insomnia Exercise HotPeppers</data>
+    <FDOB>1996.03.07</FDOB>
+    <fname>Julie</fname>
+    <GDiag>Insomnia</GDiag>
+    <GRx>HotPeppers</GRx>
+    <GTreat>Exercise</GTreat>
+    <lname>Wilson</lname>
+    <previousHash>88efc9cabfc2825e464693842ea89c806a11535b2eda0550365f33a60e6a0288</previousHash>
+    <randomKey>8RHA8ZL8</randomKey>
+    <SHA256String>3ab722da7533a94571c0acbf69047b9f2d5ccaa5c3f2465382660ae9e7f0c73b</SHA256String>
+    <SSNum>123-45-6999</SSNum>
+    <signedSHA256>8RHA8ZL8</signedSHA256>
+    <verificationProcessID>Process: 0</verificationProcessID>
+</blockRecord>
+
+<blockRecord>
+    <blockID>48174ae1-40b6-4da5-8d69-56aecd718e52</blockID>
+    <creatingProcess>Process0</creatingProcess>
+    <data>Wayne Blaine 1942.07.07 123-45-6777 Measles WaitToGetBetter CodLiverOil </data>
+    <FDOB>1942.07.07</FDOB>
+    <fname>Wayne</fname>
+    <GDiag>Measles</GDiag>
+    <GRx>CodLiverOil</GRx>
+    <GTreat>WaitToGetBetter</GTreat>
+    <lname>Blaine</lname>
+    <previousHash>3ab722da7533a94571c0acbf69047b9f2d5ccaa5c3f2465382660ae9e7f0c73b</previousHash>
+    <randomKey>DERNULXP</randomKey>
+    <SHA256String>691125e507c72d366f220a363903430934cc56a64411407763dd3e02abf9d2cc</SHA256String>
+    <SSNum>123-45-6777</SSNum>
+    <signedSHA256>DERNULXP</signedSHA256>
+    <verificationProcessID>Process: 0</verificationProcessID>
+</blockRecord>
+</BlockLedger>
+
+
+
+Process number: 1 Ports: 4711 4821 4931
+
+Using input file: BlockInput1.txt
+Concatenated: Rita Vita  1992.01.31 999-456-789 ObessivePersonality TryToRelax IbuprofenER269CPF
+Hash is: 0438C5CC9015825C67BEE6BC49887174040AEBDBBE86B38EE5F47D71629609A8
+First 16 bits 0438: 1080
+
+Puzzle solved!
+The seed was: ER269CPF
+RandomKey >:ER269CPF
+signed >:8c6c8f5671b4362665064cb564dc601cbd9fc04e459b1c55c080cf3fc399d088
+previousehash:0
+Concatenated: Wei  Xu  1996.03.22 123-456-333 Shingles WaitForRelief ZoviraxZ7YYNJYG
+Hash is: 3EA37A41328B6ABC4C5186205B355736063F6A36A6E210BDE8C009187A1F285C
+First 16 bits 3EA3: 16035
+
+Puzzle solved!
+The seed was: Z7YYNJYG
+RandomKey >:Z7YYNJYG
+signed >:9fa5eb0e7d57f4fe057c8251c21887d17eb68035654ed54b58255ac8217fcae1
+previousehash:8c6c8f5671b4362665064cb564dc601cbd9fc04e459b1c55c080cf3fc399d088
+Concatenated: Sally McCutty 1970.01.01 123-456-999 Migraine IcePack AlmotriptanBYJTZYWT
+Hash is: 9C34C15A55867F9C4C2B2726C6342CD77375C1BFC7F232C4BBC6B3F89DB7EDB8
+First 16 bits 9C34: 39988
+
+Concatenated: Sally McCutty 1970.01.01 123-456-999 Migraine IcePack AlmotriptanU4AEFSFI
+Hash is: 82B7EE74DE518114FC215D8C03A6368C6656D1A805850C8EA4FD51D881E349BA
+First 16 bits 82B7: 33463
+
+Concatenated: Sally McCutty 1970.01.01 123-456-999 Migraine IcePack Almotriptan0WH11CH5
+Hash is: B6D975B1878E86529439259CC0DE01100BC2ECCFBCEC54FED324A69C34A3BF68
+First 16 bits B6D9: 46809
+
+Concatenated: Sally McCutty 1970.01.01 123-456-999 Migraine IcePack AlmotriptanLFDPUQJ7
+Hash is: D75ACBDE2BC305A5C18CC0EC18DA7B7AEC5CD4C3643B11D2E1703BD7D39DFF85
+First 16 bits D75A: 55130
+
+Concatenated: Sally McCutty 1970.01.01 123-456-999 Migraine IcePack AlmotriptanVMU6DA56
+Hash is: 9EDE4021C71CE2E2E5DA145D36BDC29C8C0D12BB611A72721B899732BD287BB4
+First 16 bits 9EDE: 40670
+
+Concatenated: Sally McCutty 1970.01.01 123-456-999 Migraine IcePack AlmotriptanMS461XLG
+Hash is: 4FB8526283645ED5003F8E70BF13F83F61067E8ABBC6E691AE3ECEDDF90576B7
+First 16 bits 4FB8: 20408
+
+Concatenated: Sally McCutty 1970.01.01 123-456-999 Migraine IcePack AlmotriptanU29LE7GY
+Hash is: 9B8E3320AA7BDA34FB6471F9B131EA86D3A1228A811E18CF6E17784E9D021230
+First 16 bits 9B8E: 39822
+
+Concatenated: Sally McCutty 1970.01.01 123-456-999 Migraine IcePack AlmotriptanFNFULA70
+Hash is: 85A9B4824BABE82CDB734AE843E74C56EB0601F3A26EAB1BA0E9408FDF0B350F
+First 16 bits 85A9: 34217
+
+Concatenated: Sally McCutty 1970.01.01 123-456-999 Migraine IcePack AlmotriptanBHRZJWXW
+Hash is: FE519B6FA80A55BF8175F44DD99EBA4F00475CBCD5A69F06302A6AFFA152549E
+First 16 bits FE51: 65105
+
+Concatenated: Sally McCutty 1970.01.01 123-456-999 Migraine IcePack AlmotriptanWKG3X2C3
+Hash is: 8DB0CD54AFB91F95CD5BBED0C8F024BDDF2E48201179C6423179328018882818
+First 16 bits 8DB0: 36272
+
+Concatenated: Sally McCutty 1970.01.01 123-456-999 Migraine IcePack AlmotriptanTK8AZXF8
+Hash is: F7DFA313E8C3A70E66EC23589531CEFE8CD767E2E238007379D2ADD8BEE5D675
+First 16 bits F7DF: 63455
+
+Concatenated: Sally McCutty 1970.01.01 123-456-999 Migraine IcePack Almotriptan01AWOMS0
+Hash is: 98C9FDAC031BAC1FFCA5A3BAA5372793D24CACFC231844C877D8794A851624E2
+First 16 bits 98C9: 39113
+
+Concatenated: Sally McCutty 1970.01.01 123-456-999 Migraine IcePack AlmotriptanXCZBDVRV
+Hash is: 6BEFC22C2D7DFB997C8CD12F5F3290A85B79A3A9FFE303877CF14CFEC94125A8
+First 16 bits 6BEF: 27631
+
+Concatenated: Sally McCutty 1970.01.01 123-456-999 Migraine IcePack AlmotriptanJJU3PD22
+Hash is: 5C154BC27E54A20AE6C2A32EDE62D55B002288CE618B0707028657475B114CE2
+First 16 bits 5C15: 23573
+
+Concatenated: Sally McCutty 1970.01.01 123-456-999 Migraine IcePack AlmotriptanYCG2S54I
+Hash is: E1974E027EE5CCAB366811B41897287F8F1DC5CE8AB60E4E7363C806C4A73989
+First 16 bits E197: 57751
+
+Concatenated: Sally McCutty 1970.01.01 123-456-999 Migraine IcePack Almotriptan852I9JNA
+Hash is: DD405351765CBE0ABA1609F79E04250A5AEDD8CAF638DA663C3B97F2AEEF54C9
+First 16 bits DD40: 56640
+
+Concatenated: Sally McCutty 1970.01.01 123-456-999 Migraine IcePack AlmotriptanKRVOMQ21
+Hash is: 4874C09A333293B1B28389AA6685C662FA70B08E6A4ED9F0259E696C958D35E3
+First 16 bits 4874: 18548
+
+Puzzle solved!
+The seed was: KRVOMQ21
+RandomKey >:KRVOMQ21
+signed >:bf53b25a7bc31d5666c4dde9fdef7443dae90b5f6a113eb3188e36a83e6ff360
+previousehash:9fa5eb0e7d57f4fe057c8251c21887d17eb68035654ed54b58255ac8217fcae1
+Concatenated: Bruce Lee 1940.11.27 456-789-123 SoreStomach LessCombat VicodineX9HEO6SF
+Hash is: E63221C646C978AE95742E17D75D6DC894AD052043D2B59A75901E455AFC885F
+First 16 bits E632: 58930
+
+Concatenated: Bruce Lee 1940.11.27 456-789-123 SoreStomach LessCombat VicodineQ1T5RMED
+Hash is: 346B34D8987CC3188260197773D60F9967304F0F8F53C374BE837E22E17EA454
+First 16 bits 346B: 13419
+
+Puzzle solved!
+The seed was: Q1T5RMED
+RandomKey >:Q1T5RMED
+signed >:8a53358caef72e36513afc679b5b305ff1ac162abd59ff01952222776e93bf26
+previousehash:bf53b25a7bc31d5666c4dde9fdef7443dae90b5f6a113eb3188e36a83e6ff360
+4 how many recors has been read.
+ full names:
+  Rita Vita
+  Wei Xu
+  Sally McCutty
+  Bruce Lee
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BlockLedger>
+<blockRecord>
+    <blockID>bafad5e6-b1e4-4090-b011-e9b2786bf83b</blockID>
+    <creatingProcess>Process1</creatingProcess>
+    <data>Rita Vita  1992.01.31 999-456-789 ObessivePersonality TryToRelax Ibuprofen</data>
+    <FDOB>1992.01.31</FDOB>
+    <fname>Rita</fname>
+    <GDiag>ObessivePersonality</GDiag>
+    <GRx>Ibuprofen</GRx>
+    <GTreat>TryToRelax</GTreat>
+    <lname>Vita</lname>
+    <previousHash>0</previousHash>
+    <randomKey>ER269CPF</randomKey>
+    <SHA256String>8c6c8f5671b4362665064cb564dc601cbd9fc04e459b1c55c080cf3fc399d088</SHA256String>
+    <SSNum>999-456-789</SSNum>
+    <signedSHA256>ER269CPF</signedSHA256>
+    <verificationProcessID>Process: 1</verificationProcessID>
+</blockRecord>
+
+<blockRecord>
+    <blockID>0e3ddee2-da3d-4e22-a35f-15df3795198d</blockID>
+    <creatingProcess>Process1</creatingProcess>
+    <data>Wei  Xu  1996.03.22 123-456-333 Shingles WaitForRelief Zovirax</data>
+    <FDOB>1996.03.22</FDOB>
+    <fname>Wei</fname>
+    <GDiag>Shingles</GDiag>
+    <GRx>Zovirax</GRx>
+    <GTreat>WaitForRelief</GTreat>
+    <lname>Xu</lname>
+    <previousHash>8c6c8f5671b4362665064cb564dc601cbd9fc04e459b1c55c080cf3fc399d088</previousHash>
+    <randomKey>Z7YYNJYG</randomKey>
+    <SHA256String>9fa5eb0e7d57f4fe057c8251c21887d17eb68035654ed54b58255ac8217fcae1</SHA256String>
+    <SSNum>123-456-333</SSNum>
+    <signedSHA256>Z7YYNJYG</signedSHA256>
+    <verificationProcessID>Process: 1</verificationProcessID>
+</blockRecord>
+
+<blockRecord>
+    <blockID>2303cfc2-65ed-42a4-868d-6a122809d0f9</blockID>
+    <creatingProcess>Process1</creatingProcess>
+    <data>Sally McCutty 1970.01.01 123-456-999 Migraine IcePack Almotriptan</data>
+    <FDOB>1970.01.01</FDOB>
+    <fname>Sally</fname>
+    <GDiag>Migraine</GDiag>
+    <GRx>Almotriptan</GRx>
+    <GTreat>IcePack</GTreat>
+    <lname>McCutty</lname>
+    <previousHash>9fa5eb0e7d57f4fe057c8251c21887d17eb68035654ed54b58255ac8217fcae1</previousHash>
+    <randomKey>KRVOMQ21</randomKey>
+    <SHA256String>bf53b25a7bc31d5666c4dde9fdef7443dae90b5f6a113eb3188e36a83e6ff360</SHA256String>
+    <SSNum>123-456-999</SSNum>
+    <signedSHA256>KRVOMQ21</signedSHA256>
+    <verificationProcessID>Process: 1</verificationProcessID>
+</blockRecord>
+
+<blockRecord>
+    <blockID>959ef46c-f137-4993-a3ce-ecddc29c2d10</blockID>
+    <creatingProcess>Process1</creatingProcess>
+    <data>Bruce Lee 1940.11.27 456-789-123 SoreStomach LessCombat Vicodine</data>
+    <FDOB>1940.11.27</FDOB>
+    <fname>Bruce</fname>
+    <GDiag>SoreStomach</GDiag>
+    <GRx>Vicodine</GRx>
+    <GTreat>LessCombat</GTreat>
+    <lname>Lee</lname>
+    <previousHash>bf53b25a7bc31d5666c4dde9fdef7443dae90b5f6a113eb3188e36a83e6ff360</previousHash>
+    <randomKey>Q1T5RMED</randomKey>
+    <SHA256String>8a53358caef72e36513afc679b5b305ff1ac162abd59ff01952222776e93bf26</SHA256String>
+    <SSNum>456-789-123</SSNum>
+    <signedSHA256>Q1T5RMED</signedSHA256>
+    <verificationProcessID>Process: 1</verificationProcessID>
+</blockRecord>
+</BlockLedger>
+
+
+Process number: 2 Ports: 4712 4822 4932
+
+Using input file: BlockInput2.txt
+Concatenated: Helen Keller 1880.06.27 666-45-6789 Arthritis WarmCloths AspirinTK9BGH1Q
+Hash is: A2B97CCA881788625262D6CEACE3C1EC57EADF3C36B7DF6A6A170BF1F2941B39
+First 16 bits A2B9: 41657
+
+Concatenated: Helen Keller 1880.06.27 666-45-6789 Arthritis WarmCloths AspirinVRKX83L2
+Hash is: BEFAEF264C1E0764906C715C4343F6C2DA8A3485DD2F004A319A9D5424751B88
+First 16 bits BEFA: 48890
+
+Concatenated: Helen Keller 1880.06.27 666-45-6789 Arthritis WarmCloths Aspirin77FA72DC
+Hash is: 2B048F8E8CB6A4BD618630229FA2178DB0B23A9D2F9FE4D5658611B113152360
+First 16 bits 2B04: 11012
+
+Puzzle solved!
+The seed was: 77FA72DC
+RandomKey >:77FA72DC
+signed >:d92e73bcda66b78c53db1bcebb4352a63dfb81875603bc7dd4e42c81417e3a8e
+previousehash:0
+Concatenated: Abraham Lincoln 1809.02.12 444-45-6888 GreviousWound Surgery WhiskeyEST18O4D
+Hash is: 0ABF3E9002E65C6575B4EFEE6F1500ED35269B12DD69243850AB9BAF92DCCE19
+First 16 bits 0ABF: 2751
+
+Puzzle solved!
+The seed was: EST18O4D
+RandomKey >:EST18O4D
+signed >:d20022ee6ac8a9719034184835cfbb06cb4b7604a42da5fbac1d93c07da01e8c
+previousehash:d92e73bcda66b78c53db1bcebb4352a63dfb81875603bc7dd4e42c81417e3a8e
+Concatenated: John Kennedy 1917.05.29  333-45-6999 AddisonsDisease DrugTherapy SteroidsAOB4FXXI
+Hash is: C3E3E904A8C35CE0CA0E1DD9A526076BD110C7B1BBB1440AAB2401DD1B3D4494
+First 16 bits C3E3: 50147
+
+Concatenated: John Kennedy 1917.05.29  333-45-6999 AddisonsDisease DrugTherapy SteroidsXGV0KUU3
+Hash is: B30DC1A806450D88E382012F141DF5B2B79BC5210171DA11E35C0731AFA91015
+First 16 bits B30D: 45837
+
+Concatenated: John Kennedy 1917.05.29  333-45-6999 AddisonsDisease DrugTherapy SteroidsHOVNSKQ4
+Hash is: 1B692A971FB7552A5731848E103E5A7A5F1DAB9D473DCD12BD42CA10CA4BAB80
+First 16 bits 1B69: 7017
+
+Puzzle solved!
+The seed was: HOVNSKQ4
+RandomKey >:HOVNSKQ4
+signed >:8b3c04054d4e67ce74220bb0253ec653a6281610c52d710195085073b9fdef98
+previousehash:d20022ee6ac8a9719034184835cfbb06cb4b7604a42da5fbac1d93c07da01e8c
+Concatenated: Joe DiMaggio 1914.11.25  111-22-3333 SoreKnees RestFromSports AspirinEG59PHG2
+Hash is: 530491DA1C068087EF57804DDC8559EC6309B7D7881925B12BBCA6004BC2AE1B
+First 16 bits 5304: 21252
+
+Concatenated: Joe DiMaggio 1914.11.25  111-22-3333 SoreKnees RestFromSports AspirinC98Z46QE
+Hash is: 2C067CAB64786EB443D5BED88DF139FBAA30FF7B0101987BFAB049DFD845AC3D
+First 16 bits 2C06: 11270
+
+Puzzle solved!
+The seed was: C98Z46QE
+RandomKey >:C98Z46QE
+signed >:4ec5deb476965c3c74e3826c9ad9c8239040412d1d6a1bc5d51597a97063f345
+previousehash:8b3c04054d4e67ce74220bb0253ec653a6281610c52d710195085073b9fdef98
+4 how many recors has been read.
+ full names:
+  Helen Keller
+  Abraham Lincoln
+  John Kennedy
+  Joe DiMaggio
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BlockLedger>
+<blockRecord>
+    <blockID>5ab31dda-9eb1-40cb-97b7-b46c8e821174</blockID>
+    <creatingProcess>Process2</creatingProcess>
+    <data>Helen Keller 1880.06.27 666-45-6789 Arthritis WarmCloths Aspirin</data>
+    <FDOB>1880.06.27</FDOB>
+    <fname>Helen</fname>
+    <GDiag>Arthritis</GDiag>
+    <GRx>Aspirin</GRx>
+    <GTreat>WarmCloths</GTreat>
+    <lname>Keller</lname>
+    <previousHash>0</previousHash>
+    <randomKey>77FA72DC</randomKey>
+    <SHA256String>d92e73bcda66b78c53db1bcebb4352a63dfb81875603bc7dd4e42c81417e3a8e</SHA256String>
+    <SSNum>666-45-6789</SSNum>
+    <signedSHA256>77FA72DC</signedSHA256>
+    <verificationProcessID>Process: 2</verificationProcessID>
+</blockRecord>
+
+<blockRecord>
+    <blockID>a15d20c2-e652-44f9-a2cc-f58c30e1bb2d</blockID>
+    <creatingProcess>Process2</creatingProcess>
+    <data>Abraham Lincoln 1809.02.12 444-45-6888 GreviousWound Surgery Whiskey</data>
+    <FDOB>1809.02.12</FDOB>
+    <fname>Abraham</fname>
+    <GDiag>GreviousWound</GDiag>
+    <GRx>Whiskey</GRx>
+    <GTreat>Surgery</GTreat>
+    <lname>Lincoln</lname>
+    <previousHash>d92e73bcda66b78c53db1bcebb4352a63dfb81875603bc7dd4e42c81417e3a8e</previousHash>
+    <randomKey>EST18O4D</randomKey>
+    <SHA256String>d20022ee6ac8a9719034184835cfbb06cb4b7604a42da5fbac1d93c07da01e8c</SHA256String>
+    <SSNum>444-45-6888</SSNum>
+    <signedSHA256>EST18O4D</signedSHA256>
+    <verificationProcessID>Process: 2</verificationProcessID>
+</blockRecord>
+
+<blockRecord>
+    <blockID>2c147e5a-8314-4961-8446-716bf3b25e78</blockID>
+    <creatingProcess>Process2</creatingProcess>
+    <data>John Kennedy 1917.05.29  333-45-6999 AddisonsDisease DrugTherapy Steroids</data>
+    <FDOB>1917.05.29</FDOB>
+    <fname>John</fname>
+    <GDiag>AddisonsDisease</GDiag>
+    <GRx>Steroids</GRx>
+    <GTreat>DrugTherapy</GTreat>
+    <lname>Kennedy</lname>
+    <previousHash>d20022ee6ac8a9719034184835cfbb06cb4b7604a42da5fbac1d93c07da01e8c</previousHash>
+    <randomKey>HOVNSKQ4</randomKey>
+    <SHA256String>8b3c04054d4e67ce74220bb0253ec653a6281610c52d710195085073b9fdef98</SHA256String>
+    <SSNum>333-45-6999</SSNum>
+    <signedSHA256>HOVNSKQ4</signedSHA256>
+    <verificationProcessID>Process: 2</verificationProcessID>
+</blockRecord>
+
+<blockRecord>
+    <blockID>ddc32ee4-f7d5-41a5-a263-b7d58de51ebf</blockID>
+    <creatingProcess>Process2</creatingProcess>
+    <data>Joe DiMaggio 1914.11.25  111-22-3333 SoreKnees RestFromSports Aspirin</data>
+    <FDOB>1914.11.25</FDOB>
+    <fname>Joe</fname>
+    <GDiag>SoreKnees</GDiag>
+    <GRx>Aspirin</GRx>
+    <GTreat>RestFromSports</GTreat>
+    <lname>DiMaggio</lname>
+    <previousHash>8b3c04054d4e67ce74220bb0253ec653a6281610c52d710195085073b9fdef98</previousHash>
+    <randomKey>C98Z46QE</randomKey>
+    <SHA256String>4ec5deb476965c3c74e3826c9ad9c8239040412d1d6a1bc5d51597a97063f345</SHA256String>
+    <SSNum>111-22-3333</SSNum>
+    <signedSHA256>C98Z46QE</signedSHA256>
+    <verificationProcessID>Process: 2</verificationProcessID>
+</blockRecord>
+</BlockLedger>
+
+
+

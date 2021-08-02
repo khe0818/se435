@@ -1,0 +1,257 @@
+
+
+
+
+IP Lab Questions:
+
+1. Select the first ICMP Echo Request message sent by your computer, and expand
+the Internet Protocol part of the packet in the packet details window. 
+What is the IP address of your computer?
+Ans: my IP is 192.168.0.18
+2. Within the IP packet header, what is the value in the upper layer protocol field?
+Ans: Protocol: UDP (17)
+3. How many bytes are in the IP header? How many bytes are in the payload of the
+IP datagram? Explain how you determined the number of payload bytes.
+Ans:20 bytes for header, payload is 56 - 20 = 36 bytes
+4. Has this IP datagram been fragmented? Explain how you determined whether or
+not the datagram has been fragmented.
+Ans: there is no fragmented, because fragment offset is 0
+5. Which fields in the IP datagram always change from one datagram to the next
+within this series of ICMP messages sent by your computer?
+ANS: identification increase from 34577 by one each time.
+6. Which fields stay constant? Which of the fields must stay constant? Which fields
+must change? Why?
+Ans: 
+7. Describe the pattern you see in the values in the Identification field of the IP
+datagram
+8. What is the value in the Identification field and the TTL field?
+1999, ttl = 64
+9. Do these values remain unchanged for all of the ICMP TTL-exceeded replies sent
+to your computer by the nearest (first hop) router? Why?
+
+
+
+
+DNS Lab questions:
+1. Run nslookup to obtain the IP address of a Web server in Asia. What is the IP
+address of that server?
+
+nslookup www.sina.com.cn
+Name:	ww1.sinaimg.cn.gccdn.net
+Address: 174.35.98.35
+Name:	ww1.sinaimg.cn.gccdn.net
+Address: 174.35.97.163
+
+
+2. Run nslookup to determine the authoritative DNS servers for a university in
+Europe?
+
+nslookup -type=NS www.ox.ac.uk
+
+ns2.ja.net	internet address = 193.63.105.17
+ns2.ja.net	has AAAA address 2001:630:0:45::11
+dns2.ox.ac.uk	internet address = 163.1.2.190
+dns0.ox.ac.uk	internet address = 129.67.1.190
+
+3. Run nslookup so that one of the DNS servers obtained in Question 2 is queried for
+the mail servers for Yahoo! mail. What is its IP address?
+
+nslookup mail.yahoo.com usw2.akam.net
+
+mail server for yahoo refuse to response
+
+
+Kaijuns-MacBook-Pro:~ kaijunhe$ sudo killall -INFO mDNSResponder
+Password:
+Kaijuns-MacBook-Pro:~ kaijunhe$ grep mDNSResponder /var/log/system.log
+Jan 27 12:04:36 Kaijuns-MacBook-Pro sudo[96483]: kaijunhe : TTY=ttys000 ; PWD=/Users/kaijunhe ; USER=root ; COMMAND=/usr/bin/killall -INFO mDNSResponder
+Kaijuns-MacBook-Pro:~ kaijunhe$ sudo killall -HUP mDNSResponder
+
+4. Locate the DNS query and response messages. Are then sent over UDP or TCP? 
+
+
+
+
+11. What is the destination port for the DNS query message? What is the source port
+of DNS response message?
+User Datagram Protocol, Src Port: 53, Dst Port: 57898
+
+12. To what IP address is the DNS query message sent? Is this the IP address of your
+default local DNS server?
+
+13. Examine the DNS query message. What “Type” of DNS query is it? Does the
+query message contain any “answers”?
+14. Examine the DNS response message. How many “answers” are provided? What
+do each of these answers contain?
+15. Provide a screenshot.
+
+
+
+
+Http Lab
+
+1. Is your browser running HTTP version 1.0 or 1.1? What version of HTTP is the
+server running?
+ Http version 1.1 1,1
+2. What languages (if any) does your browser indicate that it can accept to the
+server?
+ Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,zh-TW;q=0.6\r\n
+3. What is the IP address of your computer? Of the gaia.cs.umass.edu server?
+Source: 192.168.0.18, Destination: 128.119.245.12
+4. What is the status code returned from the server to your browser?
+HTTP/1.1 200 OK (text/html)
+5. When was the HTML file that you are retrieving last modified at the server?
+Last-Modified: Sat, 27 Jan 2018 06:59:01 GMT\r\n
+6. How many bytes of content are being returned to your browser?
+Content-Length: 128\r\n
+7. By inspecting the raw data in the packet content window, do you see any headers
+within the data that are not displayed in the packet-listing window? If so, name
+one.
+all are displayed.
+
+
+
+12. How many HTTP GET request messages did your browser send? Which packet
+number in the trace contains the GET message for the Bill or Rights?
+13. Which packet number in the trace contains the status code and phrase associated
+with the response to the HTTP GET request?
+14. What is the status code and phrase in the response?
+15. How many data-containing TCP segments were needed to carry the single HTTP
+response and the text of the Bill of Rights?
+[4 Reassembled TCP Segments (4861 bytes): #7(1448), #8(1448), #10(1448), #11(517)]
+
+16. How many HTTP GET request messages did your browser send? To which
+Internet addresses were these GET requests sent?
+4 messsage send
+17. Can you tell whether your browser downloaded the two images serially, or
+whether they were downloaded from the two web sites in parallel? Explain
+it's from two website seperately.
+
+18. What is the server’s response (status code and phrase) in response to the initial
+HTTP GET message from your browser?
+401 unauthorized
+19. When your browser’s sends the HTTP GET message for the second time, what
+new field is included in the HTTP GET message?
+Authorization: Basic d2lyZXNoYXJrLXN0dWRlbnRzOm5ldHdvcms=\r\n
+
+
+
+
+TCP LAB
+1. What is the IP address and TCP port number used by the client computer (source)
+that is transferring the file to gaia.cs.umass.edu? To answer this question, it’s
+probably easiest to select an HTTP message and explore the details of the TCP
+packet used to carry this HTTP message, using the “details of the selected packet
+header window” (refer to Figure 2 in the “Getting Started with Wireshark” Lab if
+you’re uncertain about the Wireshark windows.
+
+ip address is 192.168.1.102, port number is 1161
+2. What is the IP address of gaia.cs.umass.edu? On what port number is it sending
+and receiving TCP segments for this connection?
+
+128.119.245.12, port number is 80
+3. What is the IP address and TCP port number used by your client computer
+(source) to transfer the file to gaia.cs.umass.edu? 
+ip 192.168.0.18      port number:63958
+
+4. What is the sequence number of the TCP SYN segment that is used to initiate the
+TCP connection between the client computer and gaia.cs.umass.edu? What is it
+in the segment that identifies the segment as a SYN segment?
+syn number is 0, and in flag part the flag is set to 1 before SYN, so it indicate it's SYN segment
+5. What is the sequence number of the SYNACK segment sent by gaia.cs.umass.edu
+to the client computer in reply to the SYN? What is the value of the
+Acknowledgement field in the SYNACK segment? How did gaia.cs.umass.edu
+determine that value? What is it in the segment that identifies the segment as a
+SYNACK segment?
+set to 1, in flag it's acknowledgement set to 1
+6. What is the sequence number of the TCP segment containing the HTTP POST
+command? Note that in order to find the POST command, you’ll need to dig into
+the packet content field at the bottom of the Wireshark window, looking for a
+segment with a “POST” within its DATA field.
+it's 1 , in this sample case, we find out post in #4 TCP
+7. Consider the TCP segment containing the HTTP POST as the first segment in the
+TCP connection. What are the sequence numbers of the first six segments in the 
+TCP connection (including the segment containing the HTTP POST)? At what
+time was each segment sent? When was the ACK for each segment received?
+Given the difference between when each TCP segment was sent, and when its
+acknowledgement was received, what is the RTT value for each of the six
+segments? What is the EstimatedRTT value (see Section 3.5.3, page 239 in
+text) after the receipt of each ACK? Assume that the value of the
+EstimatedRTT is equal to the measured RTT for the first segment, and then is
+computed using the EstimatedRTT equation on page 239 for all subsequent
+segments.
+Note: Wireshark has a nice feature that allows you to plot the RTT for
+each of the TCP segments sent. Select a TCP segment in the “listing of
+captured packets” window that is being sent from the client to the
+gaia.cs.umass.edu server. Then select: Statistics->TCP Stream Graph>Round
+Trip Time Graph.
+
+8. What is the length of each of the first six TCP segments?
+1460
+9. What is the minimum amount of available buffer space advertised at the received
+for the entire trace? Does the lack of receiver buffer space ever throttle the
+sender?
+8760
+10. Are there any retransmitted segments in the trace file? What did you check for (in
+the trace) in order to answer this question?
+no, it's just draw a plot to show that, no retransmitted segment in thr trace file
+
+11. How much data does the receiver typically acknowledge in an ACK? Can you
+identify cases where the receiver is ACKing every other received segment (see
+Table 3.2 on page 247 in the text).
+
+12. What is the throughput (bytes transferred per unit time) for the TCP connection?
+Explain how you calculated this value.
+
+
+
+
+SSL LAB:
+
+For each of the first 8 Ethernet frames, specify the source of the frame (client or
+server), determine the number of SSL records that are included in the frame, and
+list the SSL record types that are included in the frame. Draw a timing diagram
+between client and server, with one arrow for each SSL record.
+
+
+2. Each of the SSL records begins with the same three fields (with possibly different
+values). One of these fields is “content type” and has length of one byte. List all
+three fields and their lengths. 
+Ans: context type(1), length(2), version(2)
+
+3. Expand the ClientHello record. (If your trace contains multiple ClientHello
+records, expand the frame that contains the first one.) What is the value of the
+content type?
+handshake(22)
+4. Does the ClientHello record contain a nonce (also known as a “challenge”)? If so,
+what is the value of the challenge in hexadecimal notation?
+yes, 	in my condition is cipher suites. length is 28 
+5. Does the ClientHello record advertise the cyber suites it supports? If so, in the
+first listed suite, what are the public-key algorithm, the symmetric-key algorithm,
+and the hash algorithm?
+ServerHello Record:
+6. Locate the ServerHello SSL record. Does this record specify a chosen cipher
+suite? What are the algorithms in the chosen cipher suite?
+7. Does this record include a nonce? If so, how long is it? What is the purpose of the
+client and server nonces in SSL?
+under random section, it's 32 bytes
+8. Does this record include a session ID? What is the purpose of the session ID?
+yes, the purpose is to record the uique secction to make this session uique. it can be resume later
+9. Does this record contain a certificate, or is the certificate included in a separate
+record. Does the certificate fit into a single Ethernet frame?
+no it doesn't 
+10. Locate the client key exchange record. Does this record contain a pre-master
+secret? What is this secret used for? Is the secret encrypted? If so, how? How long
+is the encrypted secret?
+ANS: 
+Change Cipher Spec Record (sent by client) and Encrypted Handshake Record:
+11. What is the purpose of the Change Cipher Spec record? How many bytes is the
+record in your trace?
+12. In the encrypted handshake record, what is being encrypted? How?
+13. Does the server also send a change cipher record and an encrypted handshake
+record to the client? How are those records different from those sent by the client?
+Application Data
+14. How is the application data being encrypted? Do the records containing
+application data include a MAC? Does Wireshark distinguish between the
+encrypted application data and the MAC?
+15. Comment on and explain anything else that you found interesting in the trace

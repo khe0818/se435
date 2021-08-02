@@ -1,0 +1,119 @@
+<html>
+<head> <title> Wireshark Checklist </title>
+</head>
+<body>
+
+<FONT FACE="Cambria" SIZE=1>
+2.1
+<br>
+Updates:
+<ol>
+<li> none
+</ol>
+
+
+<FONT FACE="Cambria" SIZE=4>
+<center> <h2> WireShark Checklist </h2> </center> <p>
+
+<br> 
+
+Change "No" to "Yes" as you complete the tasks. Submit to D2L when complete:<p>
+
+<table border=1 width="50%" >
+
+<tr><td align="Left"><b> <FONT FACE="Cambria" SIZE=5>Task
+</font></b></td>
+<td align="Left"><b><FONT FACE="Cambria" SIZE=5> Complete? </task> 
+</b></td></tr>
+
+<tr> <td align="left"><b>
+My name is...
+</b></td><td align="left"><b>
+Kaijun he                  </b></td></tr>
+
+<tr> <td align="left"><b>
+I have installed and run WireShark
+</b></td><td align="left"><b>
+yes                    </b></td></tr>
+
+<tr> <td align="left"><b>
+I have completed the Intro lab</b></td><td align="left"><b>
+yes                    </b></td></tr>
+
+<tr> <td align="left"><b>
+I have completed the IP lab
+</b></td><td align="left"><b>
+yes                    </b></td></tr>
+
+<tr> <td align="left"><b>
+I have completed the DNS lab
+</b></td><td align="left"><b>
+yes                    </b></td></tr>
+
+<tr> <td align="left"><b>
+I have completed the HTTP lab
+</b></td><td align="left"><b>
+yes                    </b></td></tr>
+
+<tr> <td align="left"><b>
+I have completed the TCP lab
+</b></td><td align="left"><b>
+yes                    </b></td></tr>
+
+<tr> <td align="left"><b>
+I have completed the UDP lab
+</b></td><td align="left"><b>
+yes                    </b></td></tr>
+
+<tr> <td align="left"><b>
+I have completed the SSL lab
+</b></td><td align="left"><b> 
+yes                   </b></td></tr>
+
+<tr> <td align="left"><b>
+I have inserted my one-page write-up into the bottom of the checklist.
+</b></td><td align="left"><b>
+yes          </b></td></tr>
+
+<tr> <td align="left"><b>
+I will have submitted this checklist to D2L
+</b></td><td align="left"><b>
+yes          </b></td></tr>
+
+<tr> <td align="left"><b>
+Bragging Rights Below ---------------------
+</b></td><td align="left"><b>
+This Line          </b></td></tr>
+
+<tr> <td align="left"><b>
+I did something cool and posted it at the discussion forum
+</b></td><td align="left"><b>
+No          </b></td></tr>
+
+</table>
+
+<h3> My One Page Writeup: </h3>
+
+<pre>
+[Insert your one-page write-up here. What did you do?]
+</pre>
+
+You can also use this format:<p>
+
+First I start to work on introduction to wireshark, at beginning, i go to read the introduction of pdf file. by following the steps shown in the pdf file, firstly I went to download the wireshark mac version, and then run the wireshark software, then I begin to do the test running as instruction which is enter the URL: http://gaia.cs.umass.edu/wireshark-labs/INTRO-wireshark-file1.html in browser and then go to check whether I would recieve a short congraduation message on my chrome, and firstly i choose one interface in my interface list, and press stop in command menus, and using filter as instruction to type in http and then I recieve two http type protocol, where one is get GET /wireshark-labs/INTRO-wireshark-file1.html HTTP/1.1\r\n, this is the one i would need to find out, after this i start to answer questions in pdf files by expand those details of selected package header.<p>
+
+For the Ip lab, First i turn on terminal and wireshark, then start capture of wireshark, and type in traceroute gaia.cs.umass.edu 56 and press enter, and now go to wireshark and stop capture. In the filter menus, i type in udp, to see lots of result, and then use the output to answers questions, it's easily to observe since the capture data already give us the details like up address, ttl value, identification and so on. since there are 2000 and 3500, so i do the same steps by type in traceroute gaia.cs.umass.edu 2000 and traceroute gaia.cs.umass.edu 3500. try to compare those three set data with different packet size, we could easily find out that 56 size data is not fragmented, rest two is , and we also cold find out between two fragments, what field change and what field stay the same, how they change in each field of details.<p>
+
+For the DNS lab, firstly i read the textbook section about DNS, then i start ym lab process, follow the command in instruction, using nslookup and nsloop -type=NS mit.edu, to check result from terminal, and then i try to answer questions for this part, first two works fine, but when doing the query for mail yahoo, server refuse to response. and then i try to use other server just not mail for yahoo, it works fine. next part, it will be ifconfig, at beginning, it'a a little bit confused, because I would find out the equivelent command for mac os compared to windows os, so i do some online search find out man page for ifconfig. last part for this lab is tracing DNS with wireshark, firstly, i empty my DNS cache, then the browser cache, after this step, i open up wireshark and type in ip.addr == my ip address in filter by using ifconfig to find out my own ip address. then press start button to start capture, then type in url www.ietf.org, and wait for little time, then stop the capture, and using info from the details in wire shark to answers questions, but there is a question for mac os, what i got it's ipv6 address not ipv4, so i use ifconfig to find out my ipv6 address, and using filter with dns to find out that source address is my computer ip address in hex version. next is to use nslookup www.mit.edu command in terminal, stop capture and read the info in wireshark, and then answer questions. next, i type in nslookup www.aiit.or.kr bitsy.mit.edu. in terminal and then repeat the same steps above, and answer questions, it's interesting find out the ip address query message send to is not default local DNS server, it's 18.72.0.3 which is the address for bits.mit.edu <p>
+
+For HTTP LAB, all of those 5 small parts, procedure are almost same, open a web browser first, then clean up caches, start to capture, then type in one file in new tag of web browser, first one is basic one, after we start capture and open that link, then we recieve message in browser new tag, then stop the wireshark capture, and using filter to type in http to see the outputs. after that i use output to answer those questions, second part, we try to open a linked file with mutiple lines of words and i quick refresh the page one more time, i superisely see 2 get request, and then i using the output to answer questions, the most interesting part is that the second request has if modificated since, first one doesn't have one. for the third test, we are using same steps, clear cache, start the caputer and open link in new page, and then stop the caputure, it's one request and one response, but the main difference compared to first one is that number of reassembled TCP Segments number increase and in my output it has 4 tcp segments with total 4861 bytes. for the forth test, i use the same precedure, but this time given linked file has two image, we find out that there are 4 loop request and response, then i go to answer two questions for the lab, one odd result is that the two picture has two different source ip address, this means two photos are from two different sites.  for the fifth test, same step but this time given file need username and password to make communication, first request is unauthorized, at that request time, it pops up a dialog for user to type in username and password, after we type in, web browser successfully pop up the results contexts.<p>
+
+For TCP Lab, we first go the link for alice's adventure in wonderland, and save it in my own computer as alice.txt. therefore open the second link which have upload file block and comfirm to upload file to gaia.cs.umass.edu. i start to comfirm upload after i start to capture, to avoid http type, i go to analyze-> enable protocol to check off the http mark. after upload alice.txt, then i stop the capture, and type tcp in filter in filter menus. By using those captures to answer questions given for this lab, and also study the basic behavior about this TCP. Like how to find SYN and Acknowledge value in flag, or go to find out which segment include POST, i use filter to type in Post as regular expression, and search in packet bytes. then to find out round trip time graph, by using the features given by wireshark. then study this graph answer few questions. in my case ack number increase by 1448, through out for my TCP connection, where the total amount data is 150,965 bytes, the time  = 12.49 - 7.07 = 5.42, using amount data over time, we get through = 27853 byte per second. and then use static->tcp stream grapgh-> time sequence(stevens) to generate another plot to analyze the plot to answer questions.    <p>
+
+
+For UDP Lab, we just restart the wireshark and using your browser and wait for second then stop capture. type in udp in filter menu. then you will use this output to answer questions. it's pretty easy to observe, for example for how many fields, i just go to details part and click in user datagram protocol part check how many fields, and then check data for the length of UDP header field and the value in length field, for example the length of first UDP header field in my first segment is 57 ed, so it's 2 byte, for the value in the length field, by obsevation, first udp header field size is 8 bytes, i just click on the user datagram protocol, it shows up 8 bytes or we could calculate 4 * 2 = 8 bytes, because we have 4 fields, each field is 2 bytes. then i click on domain name system, it show up payload 33 bytes, and we know from above it's 8 bytes udp header size, we know that the value in length field is 33 + 8 = 41 bytes. for maximum bytes could include in udp payload is 2^16 -1 - 8 bytes field header, then we have 65527 bytes. then for the largest port number is 2^16 - 1= 65535 by easily calculation. for protocol number, i observe in my data, next header: UDP(17), and click on it i got 0x11 hex vaule, then covert to decimal = 16^1 + 16^0 = 17. for last question, it's pretty simple, just to see source and destination, for example addressA to addressB, then next udp go from AddressB to addressA, and click on it we could find source port and destination port.<p>
+
+
+For the SSL lab, I start my wireshark capture and then go to browser to open up amazon, in my test, i use amazon to search for water bottle, and i pick one i like and then add to cart and process to check out, after i go to process checking out page, then i stop capture of wireshark. right now i will type in ssl in filter menus, then it's interesting i see how the communication between amzon server and client, like client hello, server hello, certifacte, server key exchange, client key exchange, new session ticket and so on. it's easily to understand how this works when i see those info detail. after that i start to answer questions for each part. by study this questions, i find out how people could resume their buying item after next time they come back to amazon, what type of alogrithem they use in this process, like RSA, and when it will be encrypted<p>
+
+</body></html>
